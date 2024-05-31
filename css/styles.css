@@ -65,4 +65,22 @@ body {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+body {
+  background-color: #272C34;
+}
+body .index-section1 h1 {
+  color: #2d3238;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 35vw;
+  line-height: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90vw;
+  height: 95vh;
 }/*# sourceMappingURL=styles.css.map */

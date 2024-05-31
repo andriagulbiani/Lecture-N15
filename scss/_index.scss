@@ -1,3 +1,15 @@
 body {
     @extend %my-container;
+    background-color: #272C34;
+
+    .index-section1 {
+        h1 {
+            color: #2d3238;
+            @include robotoFont(Roboto, 900, 35vw, none);
+            @include goFlex ($justify: center, $align: center);
+            width: 90vw;
+            height: 95vh;
+
+        }
+    }
 }
