@@ -1,6 +1,28 @@
 body {
   @extend %my-container;
-  background-color: #272c34;
+  background-color: #272c34 !important;
+
+  .index-header {
+    margin-top: 25px;
+    .mynav {
+        background-color: #272c34 !important;
+
+        .icon-image {
+            margin-right: 25px;
+            margin-left: 5vw
+        }
+
+        .header-icons {
+            margin-left: 40vw;
+
+            i {
+                font-size: 30px;
+                color: white;
+                margin: 0px 10px;
+            }    
+        }
+    }
+  }
 
   .index-section {
     .background-text {
@@ -44,6 +66,7 @@ body {
           p {
             @include robotoFont(Roboto, 400, 12px, 18px);
             color: #ffffff;
+            margin-bottom: 0px;
           }
 
           .button1 {
@@ -63,9 +86,6 @@ body {
             margin-top: 15px !important;
           }
         }
-      }
-
-      .image-div {
       }
     }
   }
