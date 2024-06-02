@@ -4,12 +4,34 @@ body {
 
     .index-section1 {
         h1 {
-            color: #2d3238;
+            position: absolute;
+            color: #34383e;
             @include robotoFont(Roboto, 900, 35vw, none);
             @include goFlex ($justify: center, $align: center);
-            width: 90vw;
+            width: 100vw;
             height: 95vh;
+        }
 
+        .text-div {
+            position: absolute;
+            @include goFlex(column, center, none);
+            height: 100vh;
+            margin-left: 5vw;
+            h2 {
+                @include robotoFont(Roboto, 900, 8vw);
+                color: #f7e6d3;
+            }
+
+            h4 {
+                @include robotoFont(Roboto, 300, 3.2vw);
+                margin: 100px 0px;
+                color: aliceblue;
+            }
+
+            p {
+               color: #EB1B24;
+               @include robotoFont(Roboto, 400, 4vw); 
+            }
         }
     }
 }
