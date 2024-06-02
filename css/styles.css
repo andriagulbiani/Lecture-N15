@@ -63,10 +63,88 @@ a {
 
 body {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
 body {
   background-color: #272C34;
+}
+body .index-section .background-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 86vw;
+  height: 850px;
+}
+body .index-section .background-text h1 {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 30vw;
+  line-height: 7vw;
+  color: #34383e;
+}
+body .index-section .section-div {
+  display: flex;
+}
+body .index-section .section-div .main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  flex-wrap: wrap;
+  margin-left: 5.5vw;
+  margin-right: 2vw;
+}
+body .index-section .section-div .main-text h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 6vw;
+  line-height: 7vw;
+  color: #F7E6D3;
+}
+body .index-section .section-div .main-text h4 {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 4vw;
+  color: #FFFFFF;
+}
+body .index-section .section-div .main-text .usd-p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 3vw;
+  line-height: 5vw;
+  color: #EB1B24;
+}
+body .index-section .section-div .main-text .button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body .index-section .section-div .main-text .button-div p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+body .index-section .section-div .main-text .button-div .button1 {
+  border: solid 1px transparent;
+  background-color: #EB1B24;
+}
+body .index-section .section-div .main-text .button-div .button2 {
+  border: solid 1px white;
+  margin: 0px 15px;
+}
+body .index-section .section-div .main-text .button-div div {
+  border-radius: 25px;
+  padding: 10px 20px;
+  width: 110px;
+  margin-top: 15px !important;
 }/*# sourceMappingURL=styles.css.map */
