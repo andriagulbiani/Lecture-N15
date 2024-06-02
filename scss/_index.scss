@@ -1,73 +1,72 @@
 body {
-    @extend %my-container;
-    background-color: #272C34;
+  @extend %my-container;
+  background-color: #272c34;
 
-    .index-section {
+  .index-section {
+    .background-text {
+      @include goFlex(row, center, center);
+      position: absolute;
+      width: 86vw;
+      height: 650px;
 
-        .background-text {
-            @include  goFlex(row, center, center,);
-            position: absolute;
-            width: 86vw;
-            height: 850px;
-
-            h1 {
-                @include robotoFont(Roboto, 900, 30vw, 7vw);
-                color: #34383e;
-            }
-        }
-
-        .section-div {
-            display: flex;
-
-            .main-text {
-                @include goFlex(column, center, left);
-                margin-left: 5.5vw;
-                margin-right: 2vw;
-                h2 {
-                    @include robotoFont(Roboto, 700, 6vw, 7vw);
-                    color: #F7E6D3;
-                }
-    
-                h4 {
-                    @include robotoFont(Roboto, 300, 2vw, 4vw);
-                    color: #FFFFFF;
-                }
-    
-                .usd-p { 
-                    @include robotoFont(Roboto, 400, 3vw, 5vw);
-                    color: #EB1B24;
-                }
-    
-                .button-div {
-                    @include goFlex(row, left, center);
-    
-                    p {
-                        @include robotoFont(Roboto, 400, 12px, 18px);
-                        color: #FFFFFF;
-                    }
-    
-                    .button1 {
-                        border: solid 1px transparent;
-                        background-color: #EB1B24;
-                    }
-    
-                    .button2 {
-                        border: solid 1px white;
-                        margin: 0px 15px;
-                    }
-    
-                    div {
-                        border-radius: 25px;
-                        padding: 10px 20px;
-                        width: 110px;
-                        margin-top: 15px !important;
-                    }
-                }
-            }
-
-            .image-div {
-
-            }
-        }
+      h1 {
+        @include robotoFont(Roboto, 900, 30vw, 7vw);
+        color: #34383e;
+      }
     }
+
+    .section-div {
+      position: absolute;
+      display: flex;
+
+      .main-text {
+        @include goFlex(column, center, left);
+        margin-left: 5.5vw;
+        margin-right: 2vw;
+        h2 {
+          @include robotoFont(Roboto, 700, 6vw, 7vw);
+          color: #f7e6d3;
+        }
+
+        h4 {
+          @include robotoFont(Roboto, 300, 2vw, 4vw);
+          color: #ffffff;
+        }
+
+        .usd-p {
+          @include robotoFont(Roboto, 400, 3vw, 5vw);
+          color: #eb1b24;
+        }
+
+        .button-div {
+          @include goFlex(row, left, center);
+
+          p {
+            @include robotoFont(Roboto, 400, 12px, 18px);
+            color: #ffffff;
+          }
+
+          .button1 {
+            border: solid 1px transparent;
+            background-color: #eb1b24;
+          }
+
+          .button2 {
+            border: solid 1px white;
+            margin: 0px 15px;
+          }
+
+          div {
+            border-radius: 25px;
+            padding: 10px 20px;
+            width: 110px;
+            margin-top: 15px !important;
+          }
+        }
+      }
+
+      .image-div {
+      }
+    }
+  }
 }

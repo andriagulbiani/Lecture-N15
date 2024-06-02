@@ -68,7 +68,7 @@ body {
 }
 
 body {
-  background-color: #272C34;
+  background-color: #272c34;
 }
 body .index-section .background-text {
   display: flex;
@@ -78,7 +78,7 @@ body .index-section .background-text {
   flex-wrap: wrap;
   position: absolute;
   width: 86vw;
-  height: 850px;
+  height: 650px;
 }
 body .index-section .background-text h1 {
   font-family: Roboto;
@@ -88,6 +88,7 @@ body .index-section .background-text h1 {
   color: #34383e;
 }
 body .index-section .section-div {
+  position: absolute;
   display: flex;
 }
 body .index-section .section-div .main-text {
@@ -104,21 +105,21 @@ body .index-section .section-div .main-text h2 {
   font-weight: 700;
   font-size: 6vw;
   line-height: 7vw;
-  color: #F7E6D3;
+  color: #f7e6d3;
 }
 body .index-section .section-div .main-text h4 {
   font-family: Roboto;
   font-weight: 300;
   font-size: 2vw;
   line-height: 4vw;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 body .index-section .section-div .main-text .usd-p {
   font-family: Roboto;
   font-weight: 400;
   font-size: 3vw;
   line-height: 5vw;
-  color: #EB1B24;
+  color: #eb1b24;
 }
 body .index-section .section-div .main-text .button-div {
   display: flex;
@@ -132,11 +133,11 @@ body .index-section .section-div .main-text .button-div p {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 body .index-section .section-div .main-text .button-div .button1 {
   border: solid 1px transparent;
-  background-color: #EB1B24;
+  background-color: #eb1b24;
 }
 body .index-section .section-div .main-text .button-div .button2 {
   border: solid 1px white;
